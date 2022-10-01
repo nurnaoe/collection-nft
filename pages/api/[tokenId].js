@@ -3,7 +3,7 @@ export default function handler(req, res) {
     const tokenId = req.query.tokenId;
     // As all the images are uploaded on github, we can extract the images from github directly.
     const image_url =
-        "https://github.com/nurnaoe/nft-collection/tree/master/public/smncrypto/";
+        "https://raw.githubusercontent.com/nurnaoe/collection-nft/master/public/smncrypto/";
     // The api is sending back metadata for a Crypto Dev
     // To make our collection compatible with Opensea, we need to follow some Metadata standards
     // when sending back the response from the api
